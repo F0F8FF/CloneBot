@@ -1,6 +1,6 @@
-# foodBot
+# CloneBot
 
-음식을 추천해주는 간단한 GPT입니다.
+chatGPT 클론 봇 입니다.
 
 LangChain + ChatGPT + Streamlit 을 사용했습니다.
 
