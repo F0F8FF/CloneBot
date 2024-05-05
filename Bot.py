@@ -18,13 +18,13 @@ class StreamHandler(BaseCallbackHandler):
         self.text += token
         self.container.markdown(self.text)
 
-st.title('음식 추천 챗봇')
+st.title('ChatGPT 클론 서비스')
 
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        ChatMessage(role="assistant", content="오늘은 무엇을 먹을까요?")
+        ChatMessage(role="assistant", content="안녕하세요.")
     ]
 
 #채팅 대화기록 저장
